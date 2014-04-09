@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.providers.RuntimeExceptionMapper;
 import com.example.resources.UserResource;
 
 import com.yammer.dropwizard.config.Bootstrap;
@@ -23,5 +24,7 @@ public class ExampleService extends com.yammer.dropwizard.Service<ExampleConfigu
     @Override
     public void run(ExampleConfiguration configuration, Environment environment) throws Exception {
         environment.addResource(new UserResource());
+
+        environment.addProvider(new RuntimeExceptionMapper());
     }
 }

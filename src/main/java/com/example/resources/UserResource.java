@@ -35,4 +35,16 @@ public class UserResource {
 
         return new UsersView(users);
     }
+
+    @GET
+    @Path("error")
+    public UsersView error() {
+        throw new RuntimeException("You've been eaten by a Grue");
+    }
+
+    @GET
+    @Path("401")
+    public UsersView error401() {
+        throw new WebApplicationException(401);
+    }
 }
