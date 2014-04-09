@@ -18,8 +18,8 @@ java -jar target/scala-2.10/dropwizard-handle-exceptions-assembly-0.1.jar server
 
 ## Details
 
-This example uses a Jetty Provider
-([RuntimeExceptionMapper.java](/stevenalexander/dropwizard-handle-exceptions/blob/master/src/main/java/com/example/providers/RuntimeExceptionMapper.java))
+This example uses a Jetty Provider ExceptionMapper
+([RuntimeExceptionMapper.java](/src/main/java/com/example/providers/RuntimeExceptionMapper.java))
 to handle any RuntimeExceptions thrown inside the application, which logs the exception and returns an appropriate response.
 
 ```
