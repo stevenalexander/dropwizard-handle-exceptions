@@ -1,6 +1,6 @@
-package com.example.freemarker.views;
+package com.example.views;
 
-import com.example.freemarker.core.User;
+import com.example.core.User;
 import com.yammer.dropwizard.views.View;
 
 import java.util.List;

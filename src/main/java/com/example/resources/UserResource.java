@@ -1,7 +1,7 @@
-package com.example.freemarker.resources;
+package com.example.resources;
 
-import com.example.freemarker.core.User;
-import com.example.freemarker.views.UsersView;
+import com.example.core.User;
+import com.example.views.UsersView;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

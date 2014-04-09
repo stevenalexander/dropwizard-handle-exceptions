@@ -1,6 +1,6 @@
 import AssemblyKeys._
 
-name:="dropwizard-freemarker"
+name:="dropwizard-handle-exceptions"
 
 version:="0.1"
 

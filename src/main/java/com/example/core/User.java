@@ -1,4 +1,4 @@
-package com.example.freemarker.core;
+package com.example.core;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
